@@ -55,7 +55,8 @@ require 'keselamatan.php';
 <table width="70%" border="0" align="center" style="background-color: #DCD9CD; border: 25px solid #DCD9CD; border-radius: 25px; width: fixed; align-content: center;">
 <tr>
 <td width="2%"><b style="font-family: poppins; font-size: 15px;">Bil.</b></td>
-<td width="50%"><b style="font-family: poppins; font-size: 15px;">Topik</b></td>
+<td width="30%"><b style="font-family: poppins; font-size: 15px;">Topik</b></td>
+<td width="10%"><b style="font-family: poppins; font-size: 15px;">Jenis</b></td>
 <td width="10%"><b style="font-family: poppins; font-size: 15px;">Bilangan Soalan</b></td>
 <td width="5%"><b style="font-family: poppins; font-size: 15px;">Tindakan</b></td>
                 </tr>
@@ -71,11 +72,8 @@ require 'keselamatan.php';
                     <tr>
                         <td style="font-family: poppins; font-size: 15px; text-align: center;"><?php echo $no; ?></td>
                         <td style="font-family: poppins; font-size: 15px;"><?php echo $infoTopik['topik']; ?></td>
-                        <td style="font-family: poppins; font-size: 15px; text-align: center;"><?php
-                        if($info1['jenis']==1){
-                            echo "MCQ/TF";
-                    }
-                    ?></td>
+                        <td style="font-family: poppins; font-size: 15px;"><?php echo $info1['jenis']; ?></td>
+                        <!-- <td style="font-family: poppins; font-size: 15px; text-align: center;"></td> -->
                     <td><?php echo $info1['idtopik'] ?></td>
                     <td>
                         <a href="soalan_mula.php?idtopik=
