@@ -76,9 +76,7 @@ require 'keselamatan.php';
                         <!-- <td style="font-family: poppins; font-size: 15px; text-align: center;"></td> -->
                     <td><?php echo $info1['idtopik'] ?></td>
                     <td>
-                        <a href="soalan_mula.php?idtopik=
-                        <?php echo $infoTopik;?>&jenis=<?php echo $info1;?>">
-                    <button class="button">Buka</button></a>
+                        <a href="soalan_mula.php?idtopik=<?php echo $infoTopik;?>&jenis=<?php echo $info1;?>">Buka</a>
 </td>
 </tr>
 <?php $no++; } ?>
