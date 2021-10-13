@@ -4,7 +4,7 @@
 $host="localhost";
 $user = "root";
 //BIARKAN KOSONG JIKA GUNA XAMPP
-$password="";
+$password="12345678";
 //NAMA P.DATA-BOLEH UBAH
 $database="kuizonline3";
 //////////////////////
