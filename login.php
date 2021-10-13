@@ -1,4 +1,10 @@
-<?php require 'sambung.php'; ?>
+<?php
+session_start();
+if(isset($_SESSION['idpengguna'])){
+	//jika sudah login, lencongan ke fail ini
+	header('Location: index2.php');
+	exit();  }
+require 'sambung.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
