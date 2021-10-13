@@ -1,15 +1,20 @@
 <?php
 session_start();
-if(isset($_SESSION['idpengguna'])){
+//cek session
+if (isset($_SESSION['idpengguna'])) {
 	//jika sudah login, lencongan ke fail ini
 	header('Location: index2.php');
-	exit();  }
+	exit();
+}
 require 'sambung.php'; ?>
+<!-- bahagian html -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<?php include "pelengkap.php"; ?>
 </head>
+
 <body>
 	<div class="box-area">
 		<header>
@@ -36,8 +41,8 @@ require 'sambung.php'; ?>
 									<td width="60%">
 										<p>
 											<center>
-											<a style='text-decoration: none; font-size: 45px; font-family: poppins; color: black;' href="#">DAFTAR MASUK PENGGUNA</a>
-											<?php include 'login_style.php'; ?>
+												<a style='text-decoration: none; font-size: 45px; font-family: poppins; color: black;' href="#">DAFTAR MASUK PENGGUNA</a>
+												<?php include 'login_style.php'; ?>
 											</center>
 										</p>
 									</td>
@@ -51,11 +56,13 @@ require 'sambung.php'; ?>
 						</div>
 					</div>
 					<div style='position: absolute; bottom: -250px; left: 0px; width: 100%; height: 250px; background: #262626;'>
-					<p style="padding: 10px; margin: 20px;"><?php include 'footer.php'; ?><p>
+						<p style="padding: 10px; margin: 20px;"><?php include 'footer.php'; ?>
+						<p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </body>
+
 </html>
