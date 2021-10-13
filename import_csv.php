@@ -14,13 +14,19 @@ values (' ".$getData[0]."','".$getData[1]."','".$getData[2]."';'".$getData[3]."'
 //MSG POP UP JIKA GAGAL
 $tambah = mysqli_query($hubung,$import);
 If(!isset($tambah)){
-echo "script>alert('Pindah naik fail CSV gagal');
-window.location ='<import_daftar.php'</script>";
+  echo 
+  "<script>
+  alert('Pindah naik fail CSV gagal');
+  window.location ='import_daftar.php';
+  </script>";
 }
 //MSG POP UP JIKA BERJAYA
 else {
-echo "<script>alert('Pindah naik fail CSV berjaya');
-window.location = '<senarai_pelajar.php'</script>";
+echo "
+<script>
+alert('Pindah naik fail CSV berjaya');
+window.location = 'senarai_pelajar.php';
+</script>";
 }
 }
 fclose($file);
