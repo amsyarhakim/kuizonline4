@@ -4,7 +4,7 @@
 $host="localhost";
 $user = "root";
 //BIARKAN KOSONG JIKA GUNA XAMPP
-$password="12345678"; //ubah ikut pass sendir,klau xde pass tinggalan kosong ""
+$password=""; //ubah ikut pass sendir,klau xde pass tinggalan kosong ""
 //NAMA P.DATA-BOLEH UBAH
 $database="kuizonline3";
 //////////////////////
