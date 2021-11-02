@@ -31,6 +31,10 @@
 										<img style="width: 250px; height: 250px;" src="<?php echo $lencana; ?>">
 									</td>
 									<td width="60%">
+										<p style='text-align: left; font-size: 25px; font-family: verdana; color: black;'>
+								SOALAN BERKAITAN SEJARAH TINGKATAN 4 </p>
+										</center>
+									</p>
 										<p>
 											<center>
 											<a style='text-decoration: none; font-size: 50px; font-family: poppins; color: black;' href="#">SEKOLAH:</a>

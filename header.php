@@ -2,6 +2,7 @@
 <html>
 <head>
 <title><?php echo $nama_sistem;?></title>
+<link rel="icon" href="http://localhost/kuizonline4/index.php/favicon.ico">
 </head>
 <body><center>
 <TABLE BORDER="0" cellpadding="0" CELLSPACING="0">

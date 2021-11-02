@@ -89,7 +89,6 @@ require 'keselamatan.php';
                             <td><center>
                               <a href="papar_soalan.php?idtopik=<?php echo $info1['idtopik'];?>"><button class="button">PAPAR</button></a>
                               <a href="soalan_baru1.php?idtopik=<?php echo $info1['idtopik'];?>"><button class="button">MCQ/TF</button></a>
-                              <a href="soalan_baru2.php?idtopik=<?php echo $info1['idtopik'];?>"><button class="button">FIB</button></a>
                             </center></td>
                           </tr>
                           <?php $no++;

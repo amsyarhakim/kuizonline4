@@ -10,7 +10,6 @@ while($res = mysqli_fetch_array($result))
 {
 //Paparkan nilai asal
 $papartopik = $res['topik'];
-$paparmarkah = $res['markah'];
 }
 ?>
 
@@ -82,7 +81,7 @@ $paparmarkah = $res['markah'];
 				<div><br><br>
 					<div style="position: absolute; left: 0px; align-content: center; width: 100%; height: 1300px; border: 0px;">
 						<?php include 'menu.php'; ?>
-						<center><p style='font-size: 42px; font-family: courier new'>SENARAI SOALAN BAGI TOPIK:</p></center>
+						<center><p style='font-size: 42px; font-family: poppins;'>SENARAI SOALAN BAGI TOPIK:</p></center>
             <main>
               <center>
                 <table width="70%" border="0" align="center" style="border: 25px solid #DCD9CD; border-radius: 25px; width: fixed; align-content: center;background-color: #DCD9CD;">
@@ -101,8 +100,7 @@ $paparmarkah = $res['markah'];
                     </tr>
                     <?php
                     $no=1;
-                    $data1=mysqli_query($hubung,"SELECT * FROM soalan AS q INNER JOIN pilihan AS a ON q.idsoalan = a.idsoalan
-                    WHERE idtopik='$topik_pilihan'");
+                    $data1=mysqli_query($hubung,"SELECT * FROM soalan WHERE idtopik='$topik_pilihan'");
                     while ($info1=mysqli_fetch_array($data1))
                     {
                       $bil_rekod=mysqli_num_rows($data1);
@@ -113,7 +111,7 @@ $paparmarkah = $res['markah'];
                         <td>
                           <center>
                             <?php
-                            if ($info1['jawapan']==1){
+                            if ($info1['jenis']==1){
                               echo "MCQ / TF";
                             }else{
                               echo "FIB";

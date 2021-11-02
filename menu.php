@@ -8,8 +8,7 @@ if ($_SESSION['level']=="ADMIN")
 <a href="papar_topik.php">Kuiz</a> |
 <a href="prestasi_topik.php">Prestasi Pelajar</a> |
 <a href="senarai_pelajar.php">Senarai Pelajar</a> |
-<a href="import_daftar.php">Import Pelajar</a> |
-<a href="logout.php">Log Keluar</a>
+<a href="import_pelajar.php">Import Pelajar</a>
 </br>
 <?php $pengguna="DASHBOARD GURU";?>
 </center>

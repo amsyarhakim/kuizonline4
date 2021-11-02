@@ -123,7 +123,7 @@ input[type="file"] {
                       <!-- BAHAGIAN 2: CONTOH BAGI PELAJAR lELAKI -->
                       <tr class='font'>
                         <td>111213031234</td>
-                        <td>1111</td>
+                        <td>2424</td>
                         <td>MUHAMMAD ISYRAF BIN MAEL</td>
                         <td>LELAKI</td>
                       </tr>

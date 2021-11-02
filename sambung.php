@@ -16,7 +16,7 @@ exit();
 //////////////////////
 //PENETAPAN SISTEM ANDA
 $lencana="https://upload.wikimedia.org/wikipedia/ms/0/0e/Sekolah_Menengah_Kebangsaan_Cheras.png";
-$subjek="SEJARAH TINGKATAN 4";
+$subjek="SEJARAH T4";
 $nama_sekolah="SMK CHERAS KL<BR>
 JALAN YAAKOB LATIF,<BR>
 56000 BANDAR TUN RAZAK,<BR>
